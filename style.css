@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 100;
+}
+
+h2{
+    font-size: 40;
+    font-style: italic;
+}
+
+a{
+    color: darkcyan;
+}
+
+.backtext{
+    font-size: 100;
+    font-family: Arial;
+    font-weight: bold;
+    text-wrap-mode: wrap;
+    overflow-wrap: anywhere;
+    position: absolute;
+    color: #0000ff;
+    background-color: #ffff00;
+    font-style: italic;
+}
+
+.mainbox {
+    border: 10px solid black;
+    padding: 8px;
+    margin: 16px;
+    background: white;
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.mainflex{
+    position: absolute;
+    display: flex;
+    max-width: 1600px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainheader {
+    text-align: center;
+}
+
+img{
+    width: 256px;
+    height: 256px;
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Universal support since 2021   */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+
+
